@@ -34,3 +34,21 @@ background-color: #8c99d17e;
 .icon-circle:hover{
     background-color: yellowgreen;
 }
+@media screen and (max-width: 600px) {
+.icon-circle{
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 20px;
+    text-align:center;
+    
+            }
+.ownimage{
+    height: 250px;
+    width: 250px;
+   margin: auto;
+            }
+}
+
