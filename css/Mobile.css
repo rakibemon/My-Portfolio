@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+    .ownimage{
+        height: 250px;
+        width: 250px;
+       margin: auto;
+                }
+    #html-margin{
+        margin-top: 20px;
+    }
+    #project-ongoing-padding{
+        padding-bottom: 10px;
+    }
+}

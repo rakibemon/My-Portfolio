@@ -1,26 +1,25 @@
 *{
     box-sizing: border-box;
 }
-.nav-fixed{
-    position: sticky;
-    z-index: 2;
-}
 #navbg{
     background-color: #7952B3;
 }
 .home-container{
-background-color: #8c99d17e;
+background-color: #8976df;
 }
 .ownimage{
     height: 400px;
     width: 400px;
+}
+.img-bg{
+    background-color: #084298;
 }
 .text-weight-bolder{
     font-weight: bolder;
 
 }
 .about-container{
-    background-color: cadetblue;
+    background-color: #00D5FE;
 }
 .icon-circle{
     height: 40px;
@@ -32,23 +31,10 @@ background-color: #8c99d17e;
     text-align:center;
 }
 .icon-circle:hover{
-    background-color: yellowgreen;
+    background-color: black;
 }
-@media screen and (max-width: 600px) {
-.icon-circle{
-    height: 30px;
-    width: 40px;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: white;
-    font-size: 20px;
-    text-align:center;
-    
-            }
-.ownimage{
-    height: 250px;
-    width: 250px;
-   margin: auto;
-            }
+.service-container{
+    background-color:#ADB5BD;
 }
+
 

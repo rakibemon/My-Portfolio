@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="/css/font-awesome.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="/css/Mobile.css">
 
     <title>Emon's Portfolio</title>
 </head>
 <body>
     <!-- Navbar Start here -->
-    <nav class="navbar navbar-expand-lg navbar-dark nav-fixed"id="navbg">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbg">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,13 +48,13 @@
     <!-- Home part start -->
     <div class="home-container" id="home">
           <div class="container">
-              <div class="row vh-100 align-items-center align-content-center">
+              <div class="row min-vh-100 align-items-center align-content-center">
                 <div class="col-md-6 ownimage ">
-                    <img class="img-responsive img-fluid border border-light rounded-circle" src="/img/Captioure-removebg-preview.png" alt="image" >
+                    <img class="img-responsive img-fluid border border-light rounded-circle img-bg" src="/img/Captioure-removebg-preview.png" alt="image" >
                   </div>
                   <div class="col-md-6 order-md-first">
                     <h6> Hello I'm</h6>
-                    <h1 style="color: #DD3642;"> MD. RAKIB ISTIAK</h1>
+                    <h1 class="fs-1"style="color: white"> MD. RAKIB ISTIAK</h1>
                     <h5> Font end Web Developer</h5>
                     <button class="btn text-white btn-lg mt-3" style="background-color: #DD3642;"> My Work </button>
                 </div>
@@ -64,53 +65,58 @@
     <!-- Home part ends -->
 
     <!-- about section start here -->
-    <div class="about-container" id="about">
-      <div class="container min-vh-100">
+    <div class="about-container min-vh-100 " id="about">
+      <div class="container">
         <h1 class="text-weight-bolder text-center py-4 text-dark"> About Me </h1>
         <div class="row">
-          <div class="col-md-6 text-white">
+
+          <div class="col-md-6 text-white ">
                 <p class="fs-4 text-weight-bolder"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, molestiae.</p>
                 <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci quibusdam, suscipit eligendi temporibus, cumque magni non laboriosam ullam culpa expedita quisquam nisi vitae facilis, eveniet commodi. Dolore fuga repellat architecto dolor labore error earum praesentium deleniti voluptates? Necessitatibus ad culpa vel est atque tenetur dicta odit veritatis maxime maiores.</p>
-                <div class="row mt-4">
-                  <div class="col-sm-3">
+                
+                <div class="row mt-4" id="project-ongoing-padding">
+                  <div class="col-3">
                     <h4 class="text-center fs-4 fw-bolder"> 100 </h4>
                     <p class="text-center"> Project Completed </p>
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-3">
                     <h4 class="text-center fs-4 fw-bolder"> 90 </h4>
                     <p class="text-center"> Happy Clients </p>
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-3">
                     <h4 class="text-center fs-4 fw-bolder"> 95 </h4>
                     <p class="text-center"> Positive review </p>
                   </div>
-                  <div class="col-sm-3">
+                  <div class="col-3">
                     <h4 class="text-center fs-4 fw-bolder"> 5 </h4>
                     <p class="text-center"> Project Ongoing </p>
                   </div>
                 </div>
-                <div class="row">
+
+                <div class="row mt-4">
                   <div class="col-lg-12 d-flex align-items-center">
                     <button class="btn btn-danger btn-md"> Download CV </button>
-                        <div class="icon-circle mx-4">
+                    <div class="container social-group d-flex align-items-center m-auto">
+                        <div class="icon-circle mx-2">
                         <a href="https://www.facebook.com/aronno.avro" target="_blank" class="text-info"> <i class="fab fa-facebook-f"></i></a>
                         </div>
-                        <div class="icon-circle mx-4">
+                        <div class="icon-circle">
                         <a href="https://twitter.com/Emon31684326" target="_blank" class="text-info"><i class="fab fa-twitter"></i></a>
                         </div>  
-                        <div class="icon-circle mx-4">
+                        <div class="icon-circle mx-2">
                         <a href="https://github.com/rakibemon" target="_blank" class="text-info"><i class="fab fa-github"></i></a>
                       </div>
-                        <div class="icon-circle mx-4">
+                        <div class="icon-circle">
                         <a href="https://www.linkedin.com/in/rakib-emon-82243b1ba/" target="_blank" class="text-info"><i class="fab fa-linkedin-in"></i></a>
                       </div>
-                    
-                  </div>
+                    </div>
+                    </div>
                 </div>
+
           </div>
           
-          <div class="col-md-6 mw-100">
-            <h4 class="fs-6 mt-4"> HTML</h4>
+          <div class="col-md-6">
+            <h4 class="fs-6" id="html-margin"> HTML</h4>
             <div class="progress mb-5 " style="height: 15px;">
               
               <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -133,9 +139,50 @@
               
           </div>
         </div>
-      </div>
+      
+    </div>
     </div>
     <!-- about section ends here -->
+
+    <!-- service section start -->
+<div class="service-container min-vh-100 d-flex align-items-center" id="service">
+  <div class="container">
+    <div class="row ">
+      <div class="col">
+        <h4 class="fs-2 text-weight-bolder d-flex align-items-center justify-content-center py-4"> What I Do </h4>
+      </div>
+    </div>
+      <!-- This is card section -->
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="service-item shadow rounded text-center py-4 mx-3">
+            <i class="fab fa-html5 fs-1 text-danger"></i>
+            <h3> HTML 5</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui tempora culpa ipsam nemo suscipit aliquid perferendis mollitia ipsum tenetur. Eos?</p>
+          </div>
+        </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="service-item shadow rounded text-center py-4 mx-3">
+            <i class="fab fa-bootstrap fs-1 text-danger"></i>
+            <h3> Bootstrap v.5</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui tempora culpa ipsam nemo suscipit aliquid perferendis mollitia ipsum tenetur. Eos?</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="service-item shadow rounded text-center py-4 mx-3">
+            <i class="fab fa-react fs-1 text-danger"></i>
+            <h3> React JS</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui tempora culpa ipsam nemo suscipit aliquid perferendis mollitia ipsum tenetur. Eos?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+    <!-- service section ends -->
+
 <script src="/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
