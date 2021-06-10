@@ -36,5 +36,9 @@ background-color: #8976df;
 .service-container{
     background-color:#ADB5BD;
 }
-
+.img-h-w{
+    height: 230px;
+    width: 350px;
+    object-fit: cover;
+}
 
