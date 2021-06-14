@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Navbar Start here -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbg">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark mobile-navbar" id="navbg">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,6 +34,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hire-me">HIRE ME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#testimonial">TESTIMONIAL</a>
@@ -57,7 +60,7 @@
                   <div class="col-md-6 order-md-first">
                     <h6> Hello I'm</h6>
                     <h1 class="fs-1"style="color: white"> MD. RAKIB ISTIAK</h1>
-                    <h5> Font end Web Developer</h5>
+                    <h5> Front end Web Developer</h5>
                     <button class="btn text-white btn-lg mt-3" style="background-color: #DD3642;"> My Work </button>
                 </div>
                   
@@ -186,7 +189,7 @@
     <!-- service section ends -->
     
     <!-- portfolio section start -->
-    <div class="portfolio-container min-vh-100" id="portfolio">
+    <div class="portfolio-container min-vh-100 d-flex align-items-center justify-content-center" id="portfolio">
       <div class="container">
         <h4 class="text-center fs-1 text-dark fw-bolder"> Latest Work </h4>
         <div class="row">
@@ -243,7 +246,7 @@
     <!-- portfolio section ends -->
 
     <!-- Freelencer section start -->
-      <div class="freelencer-container py-5 bg-danger">
+      <div class="freelencer-container bg-danger py-5" id="hire-me">
         <div class="container-lg py-4">
           <div class="row justify-content-center">
             <div class="col text-center">
@@ -257,9 +260,174 @@
         </div>
       </div>
     <!-- Freelencer section end -->
+
+<!-- Testimonial Section start -->
+<div class="testimonial-container min-vh-100 d-flex align-items-center justify-content-center" id="testimonial">
+  <div class="container">
+    <h4 class=" text-center fs-1 text-info fw-bolder py-4"> Testimonial </h4>
+    <div class="row justify-content-center">
+      
+      <div class="col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" class="bg-danger" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" class="bg-danger" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner p-1">
+          <!-- Testi-item-start -->
+        <div class="testi-item carousel-item active bg-dark shadow rounded py-4 mb-5">
+          <div class="testi-author-info d-flex align-items-center ps-3">
+            <img src="/img/download.jpg" class="img-fluid img-thumbnail rounded-circle" style="height: 100px; width: 100px;" alt="Iron man">
+            <div class="author ms-4">
+              <h3 class="fs-6 mb-1 text-white"> Iron Man</h3>
+              <p class="text-muted m-0"> Engineer </p>
+            </div>
+          </div>
+            <p class="text-muted mt-3 ps-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quos magni,>br>doloribus, omnis doloremque perspiciatis sint iste</p>
+              <div class="testi-rating text-danger ps-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Testi-item-end -->
+        <!-- Testi-item-start -->
+        <div class="testi-item carousel-item bg-white shadow rounded py-4 mb-5">
+          <div class="testi-author-info d-flex align-items-center ps-3">
+            <img src="/img/pele.jpg" class="img-fluid img-thumbnail rounded-circle" style="height: 100px; width: 100px;" alt="Iron man">
+            <div class="author ms-4">
+              <h3 class="fs-6 mb-1"> Pele</h3>
+              <p class="text-muted m-0"> Footballer </p>
+            </div>
+          </div>
+            <p class="text-muted mt-3 ps-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quos magni,>br>doloribus, omnis doloremque perspiciatis sint iste</p>
+              <div class="testi-rating text-danger ps-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <!-- Testi-item-end -->
+        <!-- Testi-item-start -->
+        <div class="testi-item carousel-item bg-white shadow rounded py-4 mb-5">
+          <div class="testi-author-info d-flex align-items-center ps-3">
+            <img src="/img/Albert_Einstein_Head.jpg" class="img-fluid img-thumbnail rounded-circle" style="height: 100px; width: 100px;" alt="Iron man">
+            <div class="author ms-4">
+              <h3 class="fs-6 mb-1"> Einstein </h3>
+              <p class="text-muted m-0"> Scientist </p>
+            </div>
+          </div>
+            <p class="text-muted mt-3 ps-3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quos magni,>br>doloribus, omnis doloremque perspiciatis sint iste</p>
+              <div class="testi-rating text-danger ps-3">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+        <!-- Testi-item-end -->
+  
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>  
+
+      </div>
+  </div>
+  </div>
+  
+<!-- Testimonial section end -->
+
+<!-- Contact section start here -->
+<div class="contact-container" id="contact">
+  <div class="container">
+    <h4 class="text-center fs-1 text-white fw-bolder pt-4"> Contact </h4>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="contact-item d-flex align-items-center">
+            <i class="fas fa-envelope text-danger fs-3 ps-2 mt-2"></i>
+            <div class="contact-item-1 align-items-center justify-content-center">
+              <h5 class="fs-6 mt-5 ps-3 text-white"> Email </h5>
+              <a href="http://www.gmail.com" target="_blank" class="text-decoration-none text-danger"><p class="mt-2 ps-3"> rakibemon2015@gmail.com </p></a>
+            </div>
+          </div>
+
+          <div class="contact-item d-flex align-items-center">
+            <i class="fas fa-phone text-danger fs-3 ps-2 mt-2"></i>
+            <div class="contact-item-1 align-items-center justify-content-center">
+              <h5 class="fs-6 mt-2 ps-3 text-white"> Phone </h5>
+              <a href="#" target="_blank" class="text-decoration-none text-danger"><p class="mt-2 ps-3"> 01521248316 </p></a>
+            </div>
+          </div>
+
+          <div class="contact-item d-flex align-items-center">
+            <i class="fas fa-map-marker-alt text-danger fs-3 ps-2 mt-2"></i>
+            <div class="contact-item-1 align-items-center justify-content-center">
+              <h6 class="fs-6 mt-2 ps-3 text-white"> Visist Office </h6>
+              <a href="#" target="_blank" class="text-decoration-none text-danger"><p class="mt-2 ps-3"> 1062,Habibullah Road, Ibrahimpur, Kafrul, Dhaka Cant.-1206 </p></a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-7">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label text-white">Your Name</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Rakib Istiak">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label text-white">Subject</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="A project for you">
+        </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label text-white mt-2">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn btn-danger my-3"> Send Message </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact section end here -->
+
+<!-- Footer section start here -->
+<div class="footer border-top py-4 bg-dark">
+  <div class="container-lg">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-md-12">
+        <p class="m-0 text-white text-center">&copy; Reserved by Emon</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer section ends here -->
+
+<script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/navbar-fixed.js"></script>
-<script src="/js/fixed-top-animated-menu.1.0.js"></script>
-<script src="/js/Jquery1.11.1.min.js"></script>
 </body>
 </html>

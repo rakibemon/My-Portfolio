@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .ownimage{
         height: 250px;
         width: 250px;
@@ -9,5 +9,10 @@
     }
     #project-ongoing-padding{
         padding-bottom: 10px;
+    }
+    .mobile-navbar{
+        top: 0;
+        position: fixed;
+        z-index: 2;
     }
 }

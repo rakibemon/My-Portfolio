@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 #navbg{
     background-color: #7952B3;
 }
@@ -41,4 +44,14 @@ background-color: #8976df;
     width: 350px;
     object-fit: cover;
 }
-
+.testi-img-h-w{
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+}
+.testimonial-container{
+    background-color: azure;
+}
+.contact-container{
+    background-color: black;
+}
